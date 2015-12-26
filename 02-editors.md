@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>I will use vim.   I already use vim when I have a mostly programming related task.  I use Ipython notebook for data analysis and projects that are not purely programming (no graphs).  
 
 ---
 
@@ -61,6 +61,10 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will use Ipython Notebook (and vim when Ipython Notebook is not available) because that is what I'm using currently.  One interesting feature about Ipython notebook is the ability to move blocks of code around like "cells" in a spreadsheet. 
+
+Useful keyboard shortcuts include: tab autocomplete, "c" to copy the contents of a cell, "v" to paste a cell.  
+
+My vim setup is customized: it has NERDTree, Taglist, a quick commenting tool, a script to tab autocomplete.  I recently had YouCompleteMe setup but it doesn't like anaconda2/python so I'm looking for something to replace that.  
 
 ---
