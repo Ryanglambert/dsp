@@ -13,41 +13,50 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 grep - 
+
     use: for parsing through lines in files.
     example: grep -r "some*" *
         this will return lines within files that contain words that begin with 'some' including subdirectories recursively.  
 
 ls -
+
     use: for listing files in the current directory
     example: ls -al, list all hidden and unhidden files and directories with detailed information like permissions and last write date
 
 xargs - 
+
     use: for applying other functions to the outputs of other functions
     example: find . -name "some*" | xargs cat > consolidate.txt,
         this will consolidate all contents of files matching "some*" to the file consolidate.txt
 
 chown - 
+
     use: for changing user:group ownership of a file or directory
     example: chown ryanlambert:everyone file.txt, 
         this will change the owner and group of file.txt to ryanlambert and everyone respectively
 
 chmod - 
+
     use: for changing read/write/execute rights on a file or directory
     example: chmod -R 644 panda_directory
         this would set permissions on the panda_directory, everything in the directory and subdirectories recursively with user: read write, group read, everyone read.  
 
 export - 
+
     use: for setting environment variables
     example export PATH="Users/ryanlambert/anaconda2:$PATH"
         this would prepend the path "Users/ryanlambert/anaconda2" to the existing PATH
 
 unset - 
+
     use: for removing values associated with an environment variable or DELETING
 
 env - 
+
     use: for listing current environment variables that are set in your environment
 
 pushd, popd - 
+
     use: for moving and returning to paths 
     example:
         pushd /etc/
