@@ -7,7 +7,6 @@ def main():
     with open('faculty.csv', 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
-            pdb.set_trace
             try: 
                 dictionary[row[0].split()[-1]].append([
                             row[1],
@@ -36,7 +35,6 @@ def main():
     with open('faculty.csv', 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
-            pdb.set_trace
             try: 
                 dictionary[(row[0].split()[0], row[0].split()[-1])].append([
                             row[1],
@@ -53,10 +51,16 @@ def main():
                         ]
                     ]
     print "######### Question 7 ########"
+    # for i in range(3):
+    #     print dictionary.keys()[i], str(dictionary[dictionary.keys()[i]]).strip("[]")
     for i in range(3):
-        print dictionary.keys()[i], str(dictionary[dictionary.keys()[i]]).strip("[]")
+        print dictionary.keys()[i][0], str(dictionary[dictionary.keys()[i]]).strip("[]")
 
 
+    print "######### Question 8 ########"
+    sorted_by_last = sorted(dictionary, key=lambda full_name: full_name[-1])
+    for i in range(3):
+        print str(sorted_by_last[i]).strip("()"), str(dictionary[sorted_by_last[i]]).strip("[]")
 
 
 if __name__ == '__main__':
