@@ -4,6 +4,18 @@ Cohen's D for first babies' weights relative to 'not first born' babies.
 
 recall:
 
-    cohen's D = (Mean_population - Mean_intervention)/std_population
+cohen's D = (Mean_population - Mean_intervention)/std_pooled
 
-    Cohens_d = -.0895
+
+calculated:
+
+    pooled_variance = (firsts.totalwgt_lb.var()*len(firsts) + \
+    others.totalwgt_lb.var()*len(others))/(len(others) + len(firsts))
+    pooled_std = np.sqrt(pooled_variance)
+
+    cohens_d = (firsts.totalwgt_lb.mean() - others.totalwgt_lb.mean())/\
+    pooled_std
+
+    print "Cohen's D is: ", cohens_d
+
+    [out]: Cohen's D is:  -0.0886729270726
