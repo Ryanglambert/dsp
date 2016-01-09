@@ -9,11 +9,14 @@ For reference please see the  ipython notebook file named "For Computation"
 
 My answers: 
 ```
-% 34.27 Can be Blue Men
+cdf(z_critical_upper) - cdf(z_critical_lower) = total area under curve
 
+0.8323 -  0.4996  = .3327
 
-Lower bound is:  (0.47, 0.51) CI 95%
-Upper bound is:  (0.81, 0.86) CI 95%
+% 33.27 Can be Blue Men
+
+Lower bound for lower z_crticical is:  (0.47, 0.51) CI 95%
+Upper bound for upper z_critical is:  (0.81, 0.86) CI 95%
 ```
 
 
