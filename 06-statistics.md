@@ -97,7 +97,8 @@ The probability Elvis has an identical twin given our prior knowledge is 29.41%
 ###Q8. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+|Bayes|Frequentist|
+|:---:|:---------:|
 
 ---
 
