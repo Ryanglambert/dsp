@@ -100,6 +100,8 @@ How do frequentist and Bayesian statistics compare?
 |Bayes|Frequentist|
 |:---:|:---------:|
 |iterative|analytical|
+|diachronic|
+|can attribute probability to a hypothesis|mostly only attributes probabilities to null hypotheses|
 
 
 ---
