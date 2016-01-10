@@ -99,6 +99,8 @@ How do frequentist and Bayesian statistics compare?
 
 |Bayes|Frequentist|
 |:---:|:---------:|
+|iterative|analytical|
+
 
 ---
 
