@@ -6,3 +6,5 @@ Mathematically a cdf is the integration of a pdf.
 
 For the pdf this means that my probability will be the same for all possibilities.  
 
+Please see https://github.com/Ryanglambert/dsp/blob/master/statistics/For%20Computation.ipynb
+
