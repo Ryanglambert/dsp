@@ -35,3 +35,6 @@ This is the biased data
     |5    | 0.0523|
 
 
+Please see my notebook for reference: https://github.com/Ryanglambert/dsp/blob/master/statistics/For%20Computation.ipynb
+
+
